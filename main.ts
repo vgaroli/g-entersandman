@@ -1,0 +1,11 @@
+input.onButtonPressed(Button.A, function () {
+    music.rest(music.beat(BeatFraction.Half))
+    music.playTone(659, music.beat(BeatFraction.Half))
+    music.rest(music.beat(BeatFraction.Half))
+    music.playTone(698, music.beat(BeatFraction.Half))
+    music.playTone(784, music.beat(BeatFraction.Half))
+    music.rest(music.beat(BeatFraction.Half))
+    music.playTone(932, music.beat(BeatFraction.Half))
+    music.playTone(880, music.beat(BeatFraction.Half))
+    music.playTone(698, music.beat(BeatFraction.Half))
+})
